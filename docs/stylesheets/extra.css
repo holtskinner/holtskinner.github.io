@@ -1,0 +1,28 @@
+:root {
+  --md-primary-fg-color: #673ab7; /* Deep Purple */
+  --md-accent-fg-color: #e91e63;  /* Pink */
+}
+
+/* Make cards look better */
+.card {
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+/* Custom font for headers */
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+/* Fun gradient for the main header */
+h1 {
+  background: linear-gradient(45deg, #673ab7, #e91e63);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
